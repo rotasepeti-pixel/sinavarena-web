@@ -72,7 +72,7 @@ for (const e of denemeler) {
 const SINAVLAR = [
   {
     slug: 'ehliyet', url: 'ehliyet-deneme-sinavi', kisa: 'EHL', renk: '#1F7BD1',
-    baslik: 'Ehliyet Deneme Sınavı Çöz', h1: 'Ehliyet deneme sınavı: MEB e-Sınav düzeninde çöz',
+    baslik: 'Ehliyet Çıkmış Sorular ve Deneme Sınavı Çöz', h1: 'Ehliyet deneme sınavı: MEB e-Sınav düzeninde çöz',
     aciklama: 'MEB e-Sınav düzeninde 50 soruluk ehliyet deneme sınavları: trafik, ilk yardım, araç tekniği ve trafik adabı. Süreli çöz, sonucunu ve yanlışlarını anında gör.',
     giris: 'Sürücü belgesi yazılı sınavı MEB e-Sınav merkezlerinde bilgisayarda yapılır. SınavArena\'daki ehliyet denemeleri bu düzeni izler: 50 soru, 45 dakika ve aynı ders dağılımı. Her deneme bitince doğru, yanlış ve boşlarını, ders ders sonucunu görürsün.',
     yapi: { sure: 45, dersler: [['Trafik ve Çevre', 23], ['İlk Yardım', 12], ['Araç Tekniği', 9], ['Trafik Adabı', 6]], not: 'Geçme notu 70 puandır.' },
@@ -80,7 +80,7 @@ const SINAVLAR = [
   },
   {
     slug: 'anadolu-aof', url: 'anadolu-aof', kisa: 'AÖF', renk: '#E8590C',
-    baslik: 'Anadolu AÖF Deneme Sınavı ve Ders Listeleri', h1: 'Anadolu AÖF sınavlarına hazırlan',
+    baslik: 'AÖF Çıkmış Sorular, Deneme Sınavı ve Ders Listeleri', h1: 'Anadolu AÖF sınavlarına hazırlan',
     aciklama: 'Anadolu Üniversitesi Açıköğretim (AÖF) ön lisans ve lisans bölümlerinin ders listeleri, sınav takvimi ve ara sınav, dönem sonu deneme sınavları.',
     giris: 'Anadolu AÖF\'te bölümünü ve dersini seçip o dersin ara sınav ve dönem sonu konularından deneme çözebilirsin. Aşağıda bütün bölümlerin resmî ders listeleri var; bölümüne dokununca dersleri yarıyıl yarıyıl görürsün.',
     yapi: { sure: 30, dersler: [['Ara Sınav Konuları', 10], ['Dönem Sonu Konuları', 10]], baslik: 'Uygulamadaki AÖF karma denemesi' },
@@ -88,42 +88,42 @@ const SINAVLAR = [
   },
   {
     slug: 'ata-aof', url: 'ata-aof', kisa: 'ATA', renk: '#1E2A78',
-    baslik: 'ATA AÖF Deneme Sınavı ve Ders Listeleri', h1: 'ATA AÖF sınavlarına hazırlan',
+    baslik: 'ATA AÖF Çıkmış Sorular, Deneme Sınavı ve Ders Listeleri', h1: 'ATA AÖF sınavlarına hazırlan',
     aciklama: 'Atatürk Üniversitesi Açıköğretim (ATA AÖF) bölümlerinin ders listeleri, sınav takvimi ve deneme sınavları.',
     giris: 'ATA AÖF bölümlerinin resmî ders listeleri ve sınav takvimi. Uygulamada bölümünü seçip ara sınav ve final için deneme çözebilirsin.',
     kelimeler: ['ata aöf deneme sınavı', 'ata aöf ders listesi', 'atatürk üniversitesi açıköğretim sınav'],
   },
   {
     slug: 'auzef', url: 'auzef', kisa: 'AUZ', renk: '#0E7490',
-    baslik: 'İÜ AUZEF Deneme Sınavı ve Ders Listeleri', h1: 'İÜ AUZEF sınavlarına hazırlan',
+    baslik: 'AUZEF Çıkmış Sorular, Deneme Sınavı ve Ders Listeleri', h1: 'İÜ AUZEF sınavlarına hazırlan',
     aciklama: 'İstanbul Üniversitesi AUZEF ön lisans, lisans ve lisans tamamlama bölümlerinin ders listeleri, sınav takvimi ve deneme sınavları.',
     giris: 'İÜ AUZEF bölümlerinin resmî ders listeleri ve sınav takvimi. Uygulamada bölümünü seçip ara sınav ve final için deneme çözebilirsin.',
     kelimeler: ['auzef deneme sınavı', 'auzef ders listesi', 'auzef vize final'],
   },
   {
     slug: 'aol', url: 'acik-lise-deneme-sinavi', kisa: 'AÖL', renk: '#C2410C',
-    baslik: 'Açık Lise Deneme Sınavı Çöz', h1: 'Açık Lise (AÖL) deneme sınavları',
+    baslik: 'Açık Lise Çıkmış Sorular ve Deneme Sınavı Çöz', h1: 'Açık Lise (AÖL) deneme sınavları',
     aciklama: 'MEB Açık Öğretim Lisesi sınavlarına hazırlık: çıkmış sorulardan hazırlanan karma denemeler, sınav takvimi ve resmî kaynaklar.',
     giris: 'Açık Lise denemeleri MEB\'in yayımladığı çıkmış soru kitapçıklarından hazırlanır; her kitapçık kendi tarihli denemesi olarak çözülür. Sınav tarihleri ve kesin bilgi için aol.meb.gov.tr esas alınır.',
     kelimeler: ['açık lise deneme sınavı', 'aöl çıkmış sorular', 'açık lise sınav soruları'],
   },
   {
     slug: 'iokbs', url: 'bursluluk-sinavi-deneme', kisa: 'BUR', renk: '#7C3AED',
-    baslik: 'Bursluluk Sınavı (İOKBS) Deneme Çöz', h1: 'Bursluluk sınavı (İOKBS) denemeleri',
+    baslik: 'Bursluluk Sınavı (İOKBS) Çıkmış Sorular ve Deneme', h1: 'Bursluluk sınavı (İOKBS) denemeleri',
     aciklama: 'MEB İOKBS bursluluk sınavına 5, 6, 7, 8. sınıf ve lise için hazırlık: geçmiş yıl kitapçıklarından denemeler ve sınav bilgileri.',
     giris: 'Bursluluk denemeleri sınıf düzeyine göre ayrılır: 5, 6, 7, 8. sınıf ve lise. Denemeler MEB Ölçme, Değerlendirme ve Sınav Hizmetleri\'nin yayımladığı geçmiş yıl kitapçıklarına dayanır.',
     kelimeler: ['bursluluk sınavı deneme', 'iokbs deneme sınavı', 'bursluluk sınavı soruları'],
   },
   {
     slug: 'ogg', url: 'ozel-guvenlik-sinav-sorulari', kisa: 'ÖGG', renk: '#B91C1C',
-    baslik: 'Özel Güvenlik Sınav Soruları ve Deneme', h1: 'Özel güvenlik (ÖGG) sınavına hazırlan',
+    baslik: 'Özel Güvenlik Çıkmış Sorular ve Deneme Sınavı', h1: 'Özel güvenlik (ÖGG) sınavına hazırlan',
     aciklama: 'Özel güvenlik görevlisi temel eğitim sınavı için Emniyet Genel Müdürlüğü\'nün yayımladığı geçmiş dönem kitapçıklarından denemeler.',
     giris: 'Özel güvenlik denemeleri Emniyet Genel Müdürlüğü\'nün yayımladığı geçmiş dönem soru kitapçıklarına dayanır. Her dönemi ayrı bir deneme olarak çözebilirsin.',
     kelimeler: ['özel güvenlik sınav soruları', 'ögg deneme sınavı', 'özel güvenlik çıkmış sorular'],
   },
   {
     slug: 'kpss', url: 'kpss-deneme-sinavi', kisa: 'KPSS', renk: '#0F766E',
-    baslik: 'KPSS Deneme Sınavı', h1: 'KPSS deneme sınavı',
+    baslik: 'KPSS Çıkmış Sorular ve Deneme Sınavı', h1: 'KPSS deneme sınavı',
     aciklama: 'KPSS Genel Yetenek - Genel Kültür düzeninde deneme: 120 soru, 130 dakika. Lisans, ön lisans ve ortaöğretim.',
     giris: 'KPSS denemeleri Genel Yetenek ve Genel Kültür testinin ders dağılımını izler. Lisans, ön lisans ve ortaöğretim düzeyleri ayrı seçilir.',
     yapi: { sure: 130, dersler: [['Türkçe', 30], ['Matematik', 30], ['Tarih', 27], ['Coğrafya', 18], ['Vatandaşlık', 9], ['Güncel Bilgiler', 6]] },
@@ -131,7 +131,7 @@ const SINAVLAR = [
   },
   {
     slug: 'msu', url: 'msu-deneme-sinavi', kisa: 'MSÜ', renk: '#3F6212',
-    baslik: 'MSÜ Deneme Sınavı', h1: 'MSÜ deneme sınavı',
+    baslik: 'MSÜ Çıkmış Sorular ve Deneme Sınavı', h1: 'MSÜ deneme sınavı',
     aciklama: 'Millî Savunma Üniversitesi sınavı düzeninde deneme: Türkçe, sosyal bilimler, temel matematik ve fen bilimleri; 120 soru, 165 dakika.',
     giris: 'MSÜ denemeleri ÖSYM\'nin uyguladığı soru dağılımını izler.',
     yapi: { sure: 165, dersler: [['Türkçe', 40], ['Sosyal Bilimler', 20], ['Temel Matematik', 40], ['Fen Bilimleri', 20]] },
@@ -139,7 +139,7 @@ const SINAVLAR = [
   },
   {
     slug: 'dgs', url: 'dgs-deneme-sinavi', kisa: 'DGS', renk: '#9D174D',
-    baslik: 'DGS Deneme Sınavı', h1: 'DGS deneme sınavı',
+    baslik: 'DGS Çıkmış Sorular ve Deneme Sınavı', h1: 'DGS deneme sınavı',
     aciklama: 'Dikey Geçiş Sınavı düzeninde deneme: sayısal (matematik ve geometri) ve sözel bölüm; 100 soru, 150 dakika.',
     giris: 'DGS denemeleri sayısal ve sözel bölümlerin soru dağılımını izler.',
     yapi: { sure: 150, dersler: [['Matematik', 40], ['Geometri', 10], ['Türkçe (sözel)', 50]] },
@@ -147,33 +147,36 @@ const SINAVLAR = [
   },
   {
     slug: 'yks', url: 'yks-deneme-sinavi', kisa: 'YKS', renk: '#4338CA',
-    baslik: 'YKS Deneme Sınavı (TYT, AYT, YDT)', h1: 'YKS deneme sınavı',
+    baslik: 'YKS Çıkmış Sorular ve Deneme Sınavı (TYT, AYT, YDT)', h1: 'YKS deneme sınavı',
     aciklama: 'YKS (TYT, AYT, YDT) sınavına hazırlık: sınav takvimi ve deneme sınavları.',
     giris: 'YKS bölümünde TYT, AYT ve YDT oturumları için denemeler yer alır.',
     kelimeler: ['yks deneme sınavı', 'tyt deneme', 'ayt deneme'],
   },
   {
     slug: 'lgs', url: 'lgs-deneme-sinavi', kisa: 'LGS', renk: '#B45309',
-    baslik: 'LGS Deneme Sınavı', h1: 'LGS deneme sınavı',
+    baslik: 'LGS Çıkmış Sorular ve Deneme Sınavı', h1: 'LGS deneme sınavı',
     aciklama: 'Liselere Geçiş Sistemi (LGS) merkezî sınavına hazırlık: sınav bilgileri ve deneme sınavları.',
     giris: 'LGS bölümünde 8. sınıf merkezî sınavı için denemeler yer alır.',
     kelimeler: ['lgs deneme sınavı', 'lgs soruları'],
   },
   {
     slug: 'ales', url: 'ales-deneme-sinavi', kisa: 'ALES', renk: '#0369A1',
-    baslik: 'ALES Deneme Sınavı', h1: 'ALES deneme sınavı',
+    baslik: 'ALES Çıkmış Sorular ve Deneme Sınavı', h1: 'ALES deneme sınavı',
     aciklama: 'Akademik Personel ve Lisansüstü Eğitim Giriş Sınavı (ALES) için sınav takvimi ve deneme sınavları.',
     giris: 'ALES bölümünde sayısal ve sözel testler için denemeler yer alır.',
     kelimeler: ['ales deneme sınavı', 'ales soruları'],
   },
   {
     slug: 'yds', url: 'yds-deneme-sinavi', kisa: 'YDS', renk: '#15803D',
-    baslik: 'YDS ve YÖKDİL Deneme Sınavı', h1: 'YDS / YÖKDİL deneme sınavı',
+    baslik: 'YDS Çıkmış Sorular ve YÖKDİL Deneme Sınavı', h1: 'YDS / YÖKDİL deneme sınavı',
     aciklama: 'Yabancı dil sınavları (YDS, YÖKDİL) için sınav takvimi ve deneme sınavları.',
     giris: 'YDS / YÖKDİL bölümünde yabancı dil sınavları için denemeler yer alır.',
     kelimeler: ['yds deneme sınavı', 'yökdil deneme'],
   },
 ];
+// Her sınav sayfasında aranan "çıkmış sorular" ifadeleri.
+const CIKMIS_KELIME = {"ehliyet":["ehliyet çıkmış sorular","ehliyet sınavı çıkmış sorular"],"anadolu-aof":["aöf çıkmış sorular","anadolu aöf çıkmış sorular","aöf vize final çıkmış sorular"],"ata-aof":["ata aöf çıkmış sorular"],"auzef":["auzef çıkmış sorular"],"aol":["açık lise çıkmış sorular"],"iokbs":["bursluluk sınavı çıkmış sorular","iokbs çıkmış sorular"],"ogg":["ögg çıkmış sorular"],"kpss":["kpss çıkmış sorular","kpss gy gk çıkmış sorular"],"msu":["msü çıkmış sorular"],"dgs":["dgs çıkmış sorular"],"yks":["yks çıkmış sorular","tyt çıkmış sorular","ayt çıkmış sorular"],"lgs":["lgs çıkmış sorular"],"ales":["ales çıkmış sorular"],"yds":["yds çıkmış sorular","yökdil çıkmış sorular"]};
+for (const s of SINAVLAR) s.kelimeler = [...(CIKMIS_KELIME[s.slug] ?? []), ...s.kelimeler];
 const KAYNAK = {
   ehliyet: ['MEB Ölçme, Değerlendirme ve Sınav Hizmetleri', 'https://odsgm.meb.gov.tr'],
   lgs: ['MEB Ölçme, Değerlendirme ve Sınav Hizmetleri', 'https://odsgm.meb.gov.tr'],
@@ -327,6 +330,27 @@ const indirDugme = (kaynakAdi, yazi = 'Google Play’den indir') => `<a class="i
 const IOS_SVG = '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9-.8 0-2-.9-3.3-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.8 1.2 1.8 2.6 3.1 2.5 1.3-.1 1.7-.8 3.2-.8s1.9.8 3.2.8c1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8 0 0-2.5-1-2.5-3.9ZM14 5.3c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1.1.1 2.1-.6 2.8-1.4Z"/></svg>';
 const iosDugme = () => APP_STORE ? `<a class="indir" href="${esc(APP_STORE)}" rel="noopener">${IOS_SVG}<span><small>iPhone için</small>App Store’dan indir</span></a>` : `<span class="ios" aria-label="App Store sürümü yakında"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9-.8 0-2-.9-3.3-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.8 1.2 1.8 2.6 3.1 2.5 1.3-.1 1.7-.8 3.2-.8s1.9.8 3.2.8c1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8 0 0-2.5-1-2.5-3.9ZM14 5.3c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1.1.1 2.1-.6 2.8-1.4Z"/></svg><span><small>iPhone için</small>App Store</span><em>Yakında</em></span>`;
 
+// "Çıkmış sorular" bölümü: yalnızca uygulamada gerçekten olanı söyler (kitapçık sayısı, soru havuzu);
+// AÖF'lerde çıkmış soru arşivinin ders ders büyüdüğünü ve kullanıcı yüklemesini anlatır.
+const cikmisAd = (s) => (by(s.slug)?.name ?? s.kisa).replace(/ \(.*\)$/, '');
+function cikmisMetin(s) {
+  const ad = cikmisAd(s);
+  const [kurum] = kaynak(s.slug);
+  const n = kitapcik[s.slug];
+  if (AOF.includes(s.slug)) return [
+    `${ad} çıkmış sorular, vize (ara sınav), final (dönem sonu), bütünleme ve üç ders sınavına hazırlanırken en çok aranan kaynaktır. SınavArena'da bölümünü ve dersini seçince o dersin sınav türleri ve denemeleri açılır; ${ad} çıkmış soru arşivi ders ders büyüyor.`,
+    `Elinde geçmiş dönemlerden ${ad} çıkmış sorular varsa uygulamadan yükleyebilirsin: onaylanan her yükleme puan kazandırır ve o dersin çıkmış sorularını herkes için çoğaltır.`,
+  ];
+  if (s.slug === 'aol') return [
+    'Açık Lise çıkmış sorular, MEB Açık Öğretim Lisesi\'nin geçmiş dönem sınavlarından gelir. SınavArena\'daki Açık Lise denemeleri bu çıkmış sorulardan karma olarak hazırlanır; her kitapçık için tarihli deneme çözebilirsin.',
+  ];
+  const ilk = havuz[s.slug] && n
+    ? `${ad} çıkmış sorular uygulamada iki şekilde var: ${yuvarla(havuz[s.slug])} soruluk soru havuzundan denemeler ve ${kurum} tarafından yayımlanmış ${yuvarla(n)} resmî çıkmış sınav kitapçığı.`
+    : n ? `${ad} çıkmış sorular için ${kurum} tarafından yayımlanmış geçmiş yılların ${yuvarla(n)} resmî kitapçığı uygulamada; kitapçığı açıp soruları çözebilir, cevap anahtarıyla kontrol edebilirsin.`
+    : havuz[s.slug] ? `${ad} çıkmış sorular ve benzer sorulardan oluşan ${yuvarla(havuz[s.slug])} soruluk havuzdan denemeler uygulamada.`
+    : `${ad} çıkmış sorular uygulamaya eklendikçe bu sayfada görünür.`;
+  return [ilk, 'Çıkmış soruları çözmek; soru tipini, zorluk düzeyini ve sınavın hangi konulara ağırlık verdiğini görmenin en hızlı yoludur. Resmî kitapçıklar ve cevap anahtarları yayımlandıkları resmî sitelerde açılır; SınavArena bu dosyaların sahibi değildir.'];
+}
 function sinavKarti(s, L) {
   const c = by(s.slug);
   const d = durum(s.slug);
@@ -360,6 +384,7 @@ const SSS = [
   ['SınavArena ücretsiz mi?', 'Evet, uygulamayı ücretsiz indirip kullanabilirsin. Ücretsiz kullanımda reklam gösterilir. İsteğe bağlı Premium abonelik ortak oturumları, sınırsız online sınavı, reklamsız kullanımı ve detaylı raporu açar.'],
   ['SınavArena resmî bir uygulama mı?', 'Hayır. SınavArena bağımsız bir sınav hazırlık uygulamasıdır; ÖSYM, MEB, Emniyet Genel Müdürlüğü veya üniversitelerle bağlantılı değildir. Sınav tarihleri, başvuru ve sonuçlar için resmî kurumların sitelerini esas al.'],
   ['Hangi sınavlara hazırlanabilirim?', 'Ehliyet (MEB e-Sınav), Anadolu AÖF, ATA AÖF, İÜ AUZEF, Açık Lise, Bursluluk (İOKBS) ve Özel Güvenlik sınavları için denemeler hazır. KPSS, YKS, LGS, ALES, DGS, YDS ve MSÜ için yüzlerce resmî çıkmış sınav kitapçığı uygulamada; bu sınavların deneme düzenleri hazırlanıyor.'],
+  ['Çıkmış sorular uygulamada var mı?', `Evet. KPSS, YKS, ALES, DGS, YDS, LGS, MSÜ, ehliyet ve özel güvenlik için ${yuvarla(Object.values(kitapcik).reduce((a, b) => a + b, 0))} resmî çıkmış sınav kitapçığı uygulamada açılıp çözülebilir. Açık Lise, Bursluluk ve Özel Güvenlik denemeleri çıkmış sorulardan hazırlanır; AÖF çıkmış sorular arşivi ders ders büyüyor.`],
   ['Denemeler nasıl hazırlanıyor?', 'Denemeler resmî kaynaklarda açıklanan soru sayısı, süre ve puanlama yapısına göre hazırlanır. Geçmiş yıllara ait resmî kitapçıklar ve cevap anahtarları yayımlandıkları resmî sitelerde açılır; SınavArena bu dosyaların sahibi değildir.'],
   ['Arkadaşlarımla birlikte çözebilir miyim?', 'Evet. Hazır masalardan birine oturabilir ya da kendi masanı kurup davet kodunu arkadaşlarına gönderebilirsin. Masa dolunca deneme herkes için aynı anda başlar.'],
   ['iPhone’da (iOS) var mı?', 'SınavArena Android ve iOS için bir uygulamadır; iPhone ve iPad’de de aynı hesapla çalışırsın. Android sürümü Google Play’den indirilebilir, App Store indirme bağlantısı çok yakında burada olacak.'],
@@ -380,9 +405,9 @@ const yakindaSinavlar = SINAVLAR.filter((s) => !kokDeneme[s.slug] && !havuz[s.sl
 
 yaz('', sayfa({
   yol: '',
-  title: 'SınavArena · Online Deneme Sınavı Çöz: Ehliyet, AÖF, Açık Lise',
+  title: 'SınavArena · Çıkmış Sorular ve Online Deneme Sınavı: Ehliyet, AÖF, KPSS',
   desc: 'Ehliyet, Anadolu AÖF, ATA AÖF, AUZEF, Açık Lise, Bursluluk ve Özel Güvenlik sınavlarına Android telefonundan ya da iPhone’undan hazırlan. Gerçek sınav düzeninde deneme çöz, sonucunu anında gör. Ücretsiz.',
-  anahtar: ['deneme sınavı çöz', 'online deneme sınavı', 'ehliyet deneme sınavı', 'aöf deneme sınavı', 'açık lise deneme', 'sınav hazırlık uygulaması', 'iphone sınav uygulaması', 'android deneme sınavı uygulaması'],
+  anahtar: ['çıkmış sorular', 'aöf çıkmış sorular', 'kpss çıkmış sorular', 'ehliyet çıkmış sorular', 'deneme sınavı çöz', 'online deneme sınavı', 'ehliyet deneme sınavı', 'aöf deneme sınavı', 'açık lise deneme', 'sınav hazırlık uygulaması', 'iphone sınav uygulaması', 'android deneme sınavı uygulaması'],
   jsonld: [appLd, { '@context': 'https://schema.org', '@type': 'WebSite', name: 'SınavArena', url: ALAN + '/', inLanguage: 'tr' }, faqLd(SSS)],
   govde: (L, kok) => `
 <section class="hero"><div class="ic hero-ic">
@@ -413,6 +438,11 @@ yaz('', sayfa({
 </div></section>
 
 ${reklam('ust') ? `<div class="ic">${reklam('ust')}</div>` : ''}
+<section class="blok ince"><div class="ic">
+  <h2>Çıkmış sorular</h2>
+  <p class="blok-alt">Geçmiş yılların resmî çıkmış sınav kitapçıkları ve çıkmış sorulardan hazırlanan denemeler: sınavını seç, çıkmış soruları çöz.</p>
+  <ul class="etiketler cikmis-linkler">${SINAVLAR.map((x) => `<li><a href="${L(x.url)}">${esc(cikmisAd(x))} çıkmış sorular</a></li>`).join('')}</ul>
+</div></section>
 <section class="blok koyu"><div class="ic">
   <h2>Nasıl çözmek istersin?</h2>
   <ul class="modlar">${MODLAR.map(([b, a, d], i) => `<li style="--i:${i}"><span class="mod-ikon"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="${d}"/></svg></span><div><h3>${b}</h3><p>${a}</p></div></li>`).join('')}</ul>
@@ -454,6 +484,7 @@ for (const s of SINAVLAR) {
   const altlar = kids(s.slug).filter((k) => !bolumler.some((p) => p.slug === k.slug) && !kids(k.slug).length);
   const ustDuzey = AOF.includes(s.slug) ? [...new Set(bolumler.map((p) => p.duzey).filter(Boolean))] : [];
   const sss = [
+    [`${cikmisAd(s)} çıkmış sorular uygulamada var mı?`, cikmisMetin(s)[0]],
     [`${c.name} denemeleri ücretsiz mi?`, 'Uygulamayı ücretsiz indirip denemeleri çözebilirsin; ücretsiz kullanımda reklam gösterilir. İsteğe bağlı Premium reklamları kaldırır ve ortak oturumları açar.'],
     [`${c.name} sınav tarihi ne zaman?`, c.exam_note ? `${c.exam_note} Kesin tarih ve başvuru bilgisi için ${kurum} sitesini esas al.` : `Resmî tarih açıklandığında uygulamada otomatik görünür. Kesin bilgi için ${kurum} sitesini esas al.`],
     ...(s.yapi ? [[`${c.name} denemesi kaç soru, kaç dakika?`, `Uygulamadaki ${c.name} denemesi ${toplam} soru ve ${s.yapi.sure} dakikadır: ${s.yapi.dersler.map(([a, n]) => `${a} ${n}`).join(', ')}.${s.yapi.not ? ' ' + s.yapi.not : ''}`]] : []),
@@ -480,6 +511,7 @@ for (const s of SINAVLAR) {
 <section class="blok"><div class="ic iki-sutun">
   <div class="metin">
     <p class="giris">${esc(s.giris)}</p>
+    <h2>${esc(cikmisAd(s))} çıkmış sorular</h2>${cikmisMetin(s).map((p) => `<p>${esc(p)}</p>`).join('')}
     ${(METIN[s.slug]?.bolumler ?? []).map(([h, ps]) => `<h2>${esc(h)}</h2>${ps.map((p) => `<p>${esc(p)}</p>`).join('')}`).join('')}
     ${t || c.exam_note ? `<div class="tarih-kutu"><p class="kutu-etiket">Sıradaki sınav</p>${t ? `<p class="tarih-buyuk">${tarihYaz(t)} <span class="gun">${kalanGun(t)} gün</span></p>` : ''}${c.exam_note ? `<p>${esc(c.exam_note)}</p>` : ''}</div>` : ''}
     ${s.yapi ? `<h2>${esc(s.yapi.baslik ?? 'Deneme düzeni')}</h2>
@@ -505,7 +537,7 @@ for (const s of SINAVLAR) {
   </div>
   <aside class="yan">
     <div class="yan-kart">
-      <p class="kutu-etiket">${esc(c.name)} denemesi çöz</p>
+      <p class="kutu-etiket">${esc(cikmisAd(s))} çıkmış sorular ve deneme</p>
       <p>${icerikParcalari(s.slug).length ? `${esc(c.name)} için ${listele(icerikParcalari(s.slug))} uygulamada seni bekliyor.${!kokDeneme[s.slug] && !havuz[s.slug] ? ` ${esc(c.name)} düzeninde denemeler de hazırlanıyor.` : ''}` : 'Bu bölüm hazırlanıyor; yayına girince uygulamada görünür.'}</p>
       ${indirDugme(s.slug)}${iosDugme()}
     </div>
@@ -534,14 +566,15 @@ for (const p of programlar) {
   const kodlar = p.dersler.slice(0, 4).map((d) => d.kod).join(', ');
   const desc = `${kokCat.name} ${p.name}${p.duzey ? ` (${p.duzey})` : ''} bölümünün ${p.dersler.length} dersi yarıyıl yarıyıl: ${p.dersler.slice(0, 3).map((d) => d.ad).join(', ')}… Sınav takvimi ve deneme sınavları.`;
   const sss = [
+    [`${cikmisAd(s)} ${p.name} çıkmış sorular nerede?`, `SınavArena uygulamasında ${p.name} bölümünü ve dersini seçince o dersin çıkmış soruları ve denemeleri açılır. Çıkmış soru arşivi ders ders büyüyor; elindeki çıkmış soruları yükleyip puan kazanabilirsin.`],
     [`${kokCat.name} ${p.name} bölümünde hangi dersler var?`, `Resmî müfredatta ${p.dersler.length} ders var${yariyillar.length ? `, ${yariyillar.length} yarıyıla dağılmış` : ''}. Ders listesi bu sayfada yarıyıl yarıyıl yer alıyor.`],
     [`${kokCat.name} sınavı ne zaman?`, kokCat.exam_note ? `${kokCat.exam_note} Kesin bilgi için ${kurum} sitesini esas al.` : `Kesin tarih için ${kurum} sitesini esas al.`],
   ];
   yaz(p.url, sayfa({
     yol: p.url,
-    title: `${kokCat.name} ${p.name} Dersleri ve Deneme Sınavı · SınavArena`,
+    title: `${kokCat.name} ${p.name} Çıkmış Sorular, Dersleri ve Deneme Sınavı · SınavArena`,
     desc,
-    anahtar: [`${kokCat.name.toLowerCase()} ${p.name.toLowerCase()}`, `${p.name.toLowerCase()} dersleri`, `${p.name.toLowerCase()} deneme sınavı`, kodlar.toLowerCase()],
+    anahtar: [`${p.name.toLocaleLowerCase('tr')} çıkmış sorular`, `${cikmisAd(s).toLocaleLowerCase('tr')} ${p.name.toLocaleLowerCase('tr')} çıkmış sorular`, `${kokCat.name.toLowerCase()} ${p.name.toLowerCase()}`, `${p.name.toLowerCase()} dersleri`, `${p.name.toLowerCase()} deneme sınavı`, kodlar.toLowerCase()],
     jsonld: [
       faqLd(sss),
       { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
@@ -561,6 +594,9 @@ for (const p of programlar) {
   <div class="metin">
     <p class="giris">${esc(p.name)} bölümünün resmî müfredatındaki dersler aşağıda yarıyıl yarıyıl. Uygulamada bölümünü seçip dersine dokununca o dersin sınav türleri (ara sınav, dönem sonu, bütünleme, üç ders) ve denemeleri açılır.</p>
     ${kokCat.exam_note ? `<div class="tarih-kutu"><p class="kutu-etiket">Sıradaki sınav</p>${sonrakiTarih(kokCat) ? `<p class="tarih-buyuk">${tarihYaz(kokCat.exam_date)} <span class="gun">${kalanGun(kokCat.exam_date)} gün</span></p>` : ''}<p>${esc(kokCat.exam_note)}</p></div>` : ''}
+    <h2>${esc(p.name)} çıkmış sorular</h2>
+    <p>${esc(`${cikmisAd(s)} ${p.name} çıkmış sorular, bu bölümün derslerinin vize, final ve bütünleme sınavlarına hazırlanmanın en etkili yoludur. Uygulamada bölümünü seçip dersine dokununca o dersin çıkmış soruları ve denemeleri açılır; arşiv ders ders büyüyor.`)}${Object.keys(cikmis).some((k) => k.startsWith(p.slug + '|')) ? ' Aşağıda çıkmış sınavı olan dersler işaretli.' : ''}</p>
+    <p>${esc(`Elinde ${p.name} çıkmış sorular varsa uygulamadan yükleyebilirsin; onaylanan her yükleme puan kazandırır.`)}</p>
     ${yariyillar.map((y) => `<h2>${y}. yarıyıl</h2><div class="tablo-kap"><table class="tablo"><thead><tr><th scope="col">Kod</th><th scope="col">Ders</th></tr></thead><tbody>
       ${p.dersler.filter((d) => d.yariyil === y).map((d) => `<tr><td class="kod">${esc(d.kod)}</td><td>${esc(d.ad)}${d.secmeli ? ' <span class="secmeli">Seçmeli</span>' : ''}${cikmis[`${p.slug}|${d.kod}`] ? ` <span class="secmeli cikmis">${cikmis[`${p.slug}|${d.kod}`]} çıkmış sınav</span>` : ''}</td></tr>`).join('')}
     </tbody></table></div>`).join('')}
@@ -670,7 +706,7 @@ if (YAZILAR.length) {
   <aside class="yan">
     <div class="yan-kart">
       <p class="kutu-etiket">${ilgili ? esc(by(ilgili.slug)?.name ?? ilgili.kisa) + ' denemesi çöz' : 'Deneme çöz'}</p>
-      ${ilgili ? `<p><a href="${L(ilgili.url)}">${esc(by(ilgili.slug)?.name ?? ilgili.kisa)} sayfasına git</a></p>` : ''}
+      ${ilgili ? `<p><a href="${L(ilgili.url)}">${esc(cikmisAd(ilgili))} çıkmış sorular ve denemeler</a></p>` : `<p><a href="${L('')}#sinavlar">Bütün sınavların çıkmış soruları</a></p>`}
       ${indirDugme('yazi')}${iosDugme()}
     </div>
   </aside>

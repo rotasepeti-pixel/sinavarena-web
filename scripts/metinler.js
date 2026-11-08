@@ -3,7 +3,7 @@
 // okur resmî kaynağa yönlendirilir. Sayfada her bölüm <h2> + paragraflar olarak çıkar.
 module.exports = {
   ehliyet: {
-    menu: 'MEB e-Sınav düzeninde 50 soruluk denemeler',
+    menu: 'Çıkmış sorular ve e-Sınav düzeninde denemeler',
     bolumler: [
       ['Ehliyet sınavı nasıl yapılır?', [
         'Sürücü belgesi için önce sürücü kursunda teorik ve uygulamalı eğitim alınır, ardından teorik (yazılı) sınava girilir. Teorik sınav Millî Eğitim Bakanlığı Ölçme, Değerlendirme ve Sınav Hizmetleri Genel Müdürlüğü tarafından e-Sınav merkezlerinde, bilgisayar başında yapılır. Sınav randevusunu adayın kayıtlı olduğu sürücü kursu alır.',
@@ -19,7 +19,7 @@ module.exports = {
     ],
   },
   'anadolu-aof': {
-    menu: '49 bölümün ders listesi, ara sınav ve final denemeleri',
+    menu: 'AÖF çıkmış sorular, 49 bölümün ders listesi',
     bolumler: [
       ['Anadolu AÖF sınav sistemi', [
         'Anadolu Üniversitesi Açıköğretim Fakültesi, İktisat Fakültesi ve İşletme Fakültesi\'nin uzaktan eğitim programlarında her dönem ara sınav ve dönem sonu sınavı yapılır. Dönem sonunda başarısız olunan dersler için bütünleme sınavı, mezuniyetine az ders kalan öğrenciler için üç ders sınavı düzenlenir. Yaz okulu da ayrı bir sınav dönemi olarak yapılır.',
@@ -32,7 +32,7 @@ module.exports = {
     ],
   },
   'ata-aof': {
-    menu: '22 bölümün ders listesi ve sınav takvimi',
+    menu: 'Çıkmış sorular, 22 bölümün ders listesi',
     bolumler: [
       ['ATA AÖF sınav sistemi', [
         'Atatürk Üniversitesi Açıköğretim Fakültesi\'nde her dönem ara sınav (vize) ve dönem sonu sınavı (final) yapılır; başarısız olunan dersler için bütünleme sınavı düzenlenir. Mezuniyetine az ders kalan öğrenciler için ek sınav hakları üniversitenin duyurularıyla açıklanır.',
@@ -44,7 +44,7 @@ module.exports = {
     ],
   },
   auzef: {
-    menu: 'Ön lisans, lisans ve lisans tamamlama ders listeleri',
+    menu: 'Çıkmış sorular ve bölüm ders listeleri',
     bolumler: [
       ['İÜ AUZEF sınav sistemi', [
         'İstanbul Üniversitesi Açık ve Uzaktan Eğitim Fakültesi (AUZEF) ön lisans, lisans ve lisans tamamlama programlarında her dönem ara sınav ve final sınavı yapar; başarısız olunan dersler için bütünleme sınavı düzenlenir.',
@@ -68,7 +68,7 @@ module.exports = {
     ],
   },
   iokbs: {
-    menu: '5, 6, 7, 8. sınıf ve lise için denemeler',
+    menu: 'Çıkmış sorular, 5-8. sınıf ve lise',
     bolumler: [
       ['Bursluluk sınavı (İOKBS) nedir?', [
         'İlköğretim ve Ortaöğretim Kurumları Bursluluk Sınavı (İOKBS), Millî Eğitim Bakanlığı\'nın maddi imkânı kısıtlı başarılı öğrencilere burs vermek için yaptığı merkezî sınavdır. Sınava 5, 6, 7 ve 8. sınıf ile lise (9, 10 ve 11. sınıf) öğrencileri katılabilir.',
@@ -80,7 +80,7 @@ module.exports = {
     ],
   },
   ogg: {
-    menu: 'EGM geçmiş dönem kitapçıklarından denemeler',
+    menu: 'Çıkmış sorulardan denemeler',
     bolumler: [
       ['Özel güvenlik sınavı nedir?', [
         'Özel güvenlik görevlisi olmak için özel güvenlik temel eğitimini tamamlayıp Emniyet Genel Müdürlüğü\'nün düzenlediği yazılı sınavda başarılı olmak gerekir. Kimlik kartının süresi dolan görevliler için yenileme eğitimi ve sınavı da yapılır. Sınavlar yılda birkaç dönem düzenlenir; dönem takvimi egm.gov.tr/ozelguvenlik adresinde yayımlanır.',
@@ -92,7 +92,7 @@ module.exports = {
     ],
   },
   kpss: {
-    menu: 'Genel Yetenek - Genel Kültür, 120 soru',
+    menu: 'KPSS çıkmış sorular, GY-GK',
     bolumler: [
       ['KPSS nedir?', [
         'Kamu Personel Seçme Sınavı (KPSS), kamu kurumlarına personel alımında kullanılan ve ÖSYM tarafından yapılan sınavdır. Lisans, ön lisans ve ortaöğretim mezunları için ayrı oturumlarda yapılır. Bütün düzeylerde Genel Yetenek ve Genel Kültür testi vardır; lisans düzeyinde öğretmen adayları için Eğitim Bilimleri, bazı kadrolar için Alan Bilgisi testleri de yapılır.',
@@ -104,7 +104,7 @@ module.exports = {
     ],
   },
   yks: {
-    menu: 'TYT, AYT ve YDT oturumları',
+    menu: 'TYT, AYT, YDT çıkmış sorular',
     bolumler: [
       ['YKS nedir?', [
         'Yükseköğretim Kurumları Sınavı (YKS), üniversiteye girişte kullanılan ve ÖSYM tarafından yapılan sınavdır. Üç oturumdan oluşur: Temel Yeterlilik Testi (TYT), Alan Yeterlilik Testleri (AYT) ve Yabancı Dil Testi (YDT).',
@@ -116,7 +116,7 @@ module.exports = {
     ],
   },
   lgs: {
-    menu: '8. sınıf merkezî sınavı',
+    menu: 'LGS çıkmış sorular',
     bolumler: [
       ['LGS nedir?', [
         'Liselere Geçiş Sistemi (LGS) kapsamındaki merkezî sınav, 8. sınıf öğrencilerinin sınavla öğrenci alan liselere yerleşmesi için Millî Eğitim Bakanlığı tarafından yapılır. Sınav sözel ve sayısal olmak üzere iki oturumdur.',
@@ -128,7 +128,7 @@ module.exports = {
     ],
   },
   ales: {
-    menu: 'Sayısal ve sözel testler',
+    menu: 'ALES çıkmış sorular',
     bolumler: [
       ['ALES nedir?', [
         'Akademik Personel ve Lisansüstü Eğitimi Giriş Sınavı (ALES), yüksek lisans ve doktora programlarına başvuruda ve akademik kadrolara atamada kullanılan, ÖSYM tarafından yapılan sınavdır. Sayısal ve sözel testlerden oluşur; puanlar sayısal, sözel ve eşit ağırlık türlerinde hesaplanır.',
@@ -140,7 +140,7 @@ module.exports = {
     ],
   },
   dgs: {
-    menu: 'Sayısal ve sözel, 100 soru',
+    menu: 'DGS çıkmış sorular',
     bolumler: [
       ['DGS nedir?', [
         'Dikey Geçiş Sınavı (DGS), ön lisans mezunlarının lisans programlarına geçişi için ÖSYM tarafından yapılan sınavdır. Sınav sayısal ve sözel bölümlerden oluşur. Kesin bilgi için ÖSYM\'nin DGS kılavuzu esas alınır.',
@@ -151,7 +151,7 @@ module.exports = {
     ],
   },
   yds: {
-    menu: 'Yabancı dil sınavları',
+    menu: 'YDS çıkmış sorular',
     bolumler: [
       ['YDS ve YÖKDİL nedir?', [
         'Yabancı Dil Bilgisi Seviye Tespit Sınavı (YDS) ve Yükseköğretim Kurumları Yabancı Dil Sınavı (YÖKDİL), ÖSYM tarafından yapılan yabancı dil sınavlarıdır. YDS 80 soru ve 180 dakikadır; YÖKDİL sağlık, sosyal ve fen bilimleri alanlarında ayrı yapılır. Kesin bilgi için ÖSYM\'nin kılavuzları esas alınır.',
@@ -162,7 +162,7 @@ module.exports = {
     ],
   },
   msu: {
-    menu: 'Millî Savunma Üniversitesi sınavı, 120 soru',
+    menu: 'MSÜ çıkmış sorular',
     bolumler: [
       ['MSÜ sınavı nedir?', [
         'Millî Savunma Üniversitesi Askerî Öğrenci Aday Belirleme Sınavı, harp okulları ve astsubay meslek yüksekokullarına öğrenci adayı belirlemek için ÖSYM tarafından yapılır. Sınav Türkçe, sosyal bilimler, temel matematik ve fen bilimleri testlerinden oluşur.',
